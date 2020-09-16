@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 36930958bc7cbb5418d1a98b6a4c2cd5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - character: {instanceID: 0}
+  - pukeModel: {fileID: 5455427092047774350, guid: ec77520222fbec54da3b25e0ce8ab50e,
+      type: 3}
+  - PukeLoc: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

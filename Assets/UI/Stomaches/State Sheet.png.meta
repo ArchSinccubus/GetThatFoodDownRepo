@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: ddceb4017e55a1340a84870b983cc520
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3318396821670330122
+    second: State Sheet_0
+  - first:
+      213: -3626536192134165302
+    second: State Sheet_1
+  - first:
+      213: -3550447220263534304
+    second: State Sheet_2
+  - first:
+      213: 6637889216341397030
+    second: State Sheet_3
+  - first:
+      213: 9152570917694561058
+    second: State Sheet_4
+  - first:
+      213: -4140424563221366575
+    second: State Sheet_5
+  - first:
+      213: -6660327062726816516
+    second: State Sheet_6
+  - first:
+      213: -1227971312120450700
+    second: State Sheet_7
+  - first:
+      213: -7209898826163025538
+    second: State Sheet_8
+  - first:
+      213: -7966815638960688226
+    second: State Sheet_9
+  - first:
+      213: 3994938129226562410
+    second: State Sheet_10
+  - first:
+      213: -5341190145120603722
+    second: State Sheet_11
+  - first:
+      213: 7829309436485049513
+    second: State Sheet_12
+  - first:
+      213: 6920604562211038512
+    second: State Sheet_13
+  - first:
+      213: -5116638022681755477
+    second: State Sheet_14
+  - first:
+      213: -7901104207522604551
+    second: State Sheet_15
+  - first:
+      213: 9011609479171025721
+    second: State Sheet_16
+  - first:
+      213: -7314652438308332021
+    second: State Sheet_17
+  - first:
+      213: -4621525192284504511
+    second: State Sheet_18
+  - first:
+      213: 6232505460150596245
+    second: State Sheet_19
+  - first:
+      213: 5782552128058061801
+    second: State Sheet_20
+  - first:
+      213: 1426095331111031408
+    second: State Sheet_21
+  - first:
+      213: 6798956548738765387
+    second: State Sheet_22
+  - first:
+      213: -7046253923975504254
+    second: State Sheet_23
+  - first:
+      213: 2454370307722418329
+    second: State Sheet_24
+  - first:
+      213: -5682477090629881605
+    second: State Sheet_25
+  - first:
+      213: -1517331332310798986
+    second: State Sheet_26
+  - first:
+      213: 1534098019513388736
+    second: State Sheet_27
+  - first:
+      213: -4210092173812553653
+    second: State Sheet_28
+  - first:
+      213: -6987611691694147419
+    second: State Sheet_29
+  - first:
+      213: -3531896421830333024
+    second: State Sheet_30
+  - first:
+      213: -3600935130114596633
+    second: State Sheet_31
+  - first:
+      213: -8108945888311311618
+    second: State Sheet_32
+  - first:
+      213: -258863354567208841
+    second: State Sheet_33
+  - first:
+      213: 7572036311067013666
+    second: State Sheet_34
+  - first:
+      213: -3531143537063079506
+    second: State Sheet_35
+  - first:
+      213: 6279938228026249879
+    second: State Sheet_36
+  - first:
+      213: -1244015724365216166
+    second: State Sheet_37
+  - first:
+      213: -864433481229608665
+    second: State Sheet_38
+  - first:
+      213: -8397766061778052085
+    second: State Sheet_39
+  - first:
+      213: 859158337772351127
+    second: State Sheet_40
+  - first:
+      213: 4070566840518065788
+    second: State Sheet_41
+  - first:
+      213: -2683483124693973321
+    second: State Sheet_42
+  - first:
+      213: -5965291612498043284
+    second: State Sheet_43
+  - first:
+      213: -8078530755300046341
+    second: State Sheet_44
+  - first:
+      213: -4489876838518105988
+    second: State Sheet_45
+  - first:
+      213: 1072457181880137581
+    second: State Sheet_46
+  - first:
+      213: -5511068437930840206
+    second: State Sheet_47
+  - first:
+      213: 5125672104992218302
+    second: State Sheet_48
+  - first:
+      213: -7160460590789287061
+    second: State Sheet_49
+  - first:
+      213: -3677611559285456435
+    second: State Sheet_50
+  - first:
+      213: 6531483406909967595
+    second: State Sheet_51
+  - first:
+      213: 3240232377401805778
+    second: State Sheet_52
+  - first:
+      213: 7044653644791614359
+    second: State Sheet_53
+  - first:
+      213: -4530388556899895981
+    second: State Sheet_54
+  - first:
+      213: 199098495575742280
+    second: State Sheet_55
+  - first:
+      213: 6135139548055491685
+    second: State Sheet_56
+  - first:
+      213: -6114321585802824033
+    second: State Sheet_57
+  - first:
+      213: -8697403269571444285
+    second: State Sheet_58
+  - first:
+      213: -3174406726390255890
+    second: State Sheet_59
+  - first:
+      213: 7730732265202984278
+    second: State Sheet_60
+  - first:
+      213: 2344066780164960850
+    second: State Sheet_61
+  - first:
+      213: 5692117076566410416
+    second: State Sheet_62
+  - first:
+      213: -6860666410351942502
+    second: State Sheet_63
+  - first:
+      213: 5313069906532250064
+    second: State Sheet_64
+  - first:
+      213: 7733802348401708988
+    second: State Sheet_65
+  - first:
+      213: -8365920937337371573
+    second: State Sheet_66
+  - first:
+      213: -3661930635603005835
+    second: State Sheet_67
+  - first:
+      213: -2053109604411246022
+    second: State Sheet_68
+  - first:
+      213: -5176084299527144106
+    second: State Sheet_69
+  - first:
+      213: -320161388344971775
+    second: State Sheet_70
+  - first:
+      213: -4010654903874401685
+    second: State Sheet_71
+  - first:
+      213: -2244447724255158205
+    second: State Sheet_72
+  - first:
+      213: 2703590379928233136
+    second: State Sheet_73
+  - first:
+      213: 6598555329646679950
+    second: State Sheet_74
+  - first:
+      213: -5685279481310945068
+    second: State Sheet_75
+  - first:
+      213: -1830949155349555698
+    second: State Sheet_76
+  - first:
+      213: -1223192848680364681
+    second: State Sheet_77
+  - first:
+      213: -2234808074773402066
+    second: State Sheet_78
+  - first:
+      213: -6212801907106384423
+    second: State Sheet_79
+  - first:
+      213: -7661362096098675081
+    second: State Sheet_80
+  - first:
+      213: -7945082756996192757
+    second: State Sheet_81
+  - first:
+      213: 1846847473263243018
+    second: State Sheet_82
+  - first:
+      213: -1121506841755327698
+    second: State Sheet_83
+  - first:
+      213: -7002067406660058373
+    second: State Sheet_84
+  - first:
+      213: -4468220648940194562
+    second: State Sheet_85
+  - first:
+      213: -8753903484407117748
+    second: State Sheet_86
+  - first:
+      213: -3394894045865736943
+    second: State Sheet_87
+  - first:
+      213: -1296578955307695435
+    second: State Sheet_88
+  - first:
+      213: 1609799555236856533
+    second: State Sheet_89
+  - first:
+      213: 7226012677066100447
+    second: State Sheet_90
+  - first:
+      213: 7362516377517272951
+    second: State Sheet_91
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: State Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 322
+        width: 254
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f00e8c1cafa2f1d0800000000000000
+      internalID: -3318396821670330122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: State Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 322
+        width: 242
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accceb62c84fbadc0800000000000000
+      internalID: -3626536192134165302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: State Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 187
+        width: 255
+        height: 398
+      alignment: 9
+      pivot: {x: 0.50596136, y: 0.297572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471b0b2099e55fee0800000000000000
+      internalID: -1227971312120450700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: State Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 33
+        width: 254
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93b8b8e26f207190800000000000000
+      internalID: -7966815638960688226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: State Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 27
+        width: 249
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b763cff0fd07730800000000000000
+      internalID: 3994938129226562410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
