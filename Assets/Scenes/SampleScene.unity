@@ -1290,7 +1290,7 @@ MonoBehaviour:
   pickupTransform: {fileID: 0}
   anim: {fileID: 255369495}
   stomachCapacity: 0
-  MaxStomachCapacity: 1
+  MaxStomachCapacity: 100
   IsControl: 0
   IsVomiting: 0
   IsWaiting: 0
@@ -3694,7 +3694,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: cd45116d8a68d164db4eb206c1c2ea4c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -6850,7 +6850,6 @@ GameObject:
   - component: {fileID: 1145278275}
   - component: {fileID: 1145278274}
   - component: {fileID: 963194230}
-  - component: {fileID: 1145278277}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6942,22 +6941,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!111 &1145278277
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145278272}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 33783c0ba95426c4da069f4d77a4f14c, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 33783c0ba95426c4da069f4d77a4f14c, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1001 &1160604935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9331,7 +9314,7 @@ MonoBehaviour:
   IsVomiting: 0
   IsWaiting: 0
   cancelAnim: 0
-  CharCam: {fileID: 0}
+  CharCam: {fileID: 1145278276}
   modelNum: 0
 --- !u!65 &1422659383
 BoxCollider:

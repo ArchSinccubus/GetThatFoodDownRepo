@@ -141,6 +141,7 @@ public class LevelManager
         GameController.instance.Player.cancelAnim = false;
         GameController.instance.Enemy.cancelAnim = false;
 
+
         GameController.instance.Player.playAnimation("Gesture_ANIM", 1, true);
         GameController.instance.Enemy.playAnimation("Gesture_ANIM", 1, true);
 
@@ -150,6 +151,10 @@ public class LevelManager
 
     public void LoadNextLevel()
     {
+
+        GameController.instance.Player.CharCam.GetComponent<Animator>().SetTrigger("Exit");
+        GameController.instance.Enemy.CharCam.GetComponent<Animator>().SetTrigger("Exit");
+
         unloadLevel();
         Levels[CurrentLevel].unloadFoods();
         LoadLevel(NextLevel);
@@ -161,6 +166,8 @@ public class LevelManager
     public void ResetLevel()
     {
 
+        GameController.instance.Player.CharCam.GetComponent<Animator>().SetTrigger("Exit");
+        GameController.instance.Enemy.CharCam.GetComponent<Animator>().SetTrigger("Exit");
 
         unloadLevel();
 
