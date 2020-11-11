@@ -6,6 +6,7 @@ public class MainCameraAnimControl : MonoBehaviour
 {
     public GameObject slider;
     public GameObject Seperator;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,6 @@ public class MainCameraAnimControl : MonoBehaviour
     {
         slider.SetActive(false);
         Seperator.SetActive(false);
-
     }
 
     public void showSlider()
@@ -31,6 +31,14 @@ public class MainCameraAnimControl : MonoBehaviour
         slider.SetActive(true);
         Seperator.SetActive(true);
 
+        GameController.instance.Tutorial.SetActive(true);
+    }
 
+    public void showWinForNextLevel()
+    {
+        GameController.instance.Win.gameObject.SetActive(true);
+
+        GameController.instance.nextB.gameObject.SetActive(true);
+    
     }
 }

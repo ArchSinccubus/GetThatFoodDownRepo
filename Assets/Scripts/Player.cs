@@ -47,6 +47,11 @@ public class Player : Character
                 if (Physics.Raycast(touchRay, out hit))
                 {
 
+                    if (GameController.instance.Tutorial.activeSelf)
+                    {
+                        GameController.instance.Tutorial.SetActive(false);
+                    }
+
                     if (hit.transform.tag.Contains("Dish") || hit.transform.tag == "Drink")
                     {
                         Food F;
@@ -92,6 +97,11 @@ public class Player : Character
 
             if (Physics.Raycast(touchRay, out hit))
             {
+
+                if (GameController.instance.Tutorial.activeSelf)
+                {
+                    GameController.instance.Tutorial.SetActive(false);
+                }
 
                 if (hit.transform.tag.Contains("Dish") || hit.transform.tag == "Drink")
                 {

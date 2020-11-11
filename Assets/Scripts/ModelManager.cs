@@ -114,4 +114,13 @@ public class ModelManager : MonoBehaviour
         Crumbs.Play();
     
     }
+
+    public void zoomBack()
+    {
+        if (character is Player)
+        {
+            character.CharCam.GetComponent<Animator>().SetTrigger("Return");
+        }
+    
+    }
 }

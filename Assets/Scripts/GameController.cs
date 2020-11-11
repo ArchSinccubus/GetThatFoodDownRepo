@@ -35,6 +35,11 @@ public class GameController : MonoBehaviour
     public Button PauseB, resetB, nextB;
 
     public Transform NomralELoc, PonyLoc;
+
+    public GameObject Win, Lose;
+    public GameObject Tutorial;
+
+    public ParticleSystem winConfetti;
     // Start is called before the first frame update
     void Start()
     {
@@ -67,7 +72,10 @@ public class GameController : MonoBehaviour
             VictoryCheck = Levels.CheckVictory();
         }
 
-
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            VictoryCheck = true;
+        }
     }
 
     public void TogglePause()
@@ -131,6 +139,8 @@ public class GameController : MonoBehaviour
         {
             UImanager.StomachBar.gameObject.SetActive(false);
 
+            // Win.gameObject.SetActive(true);
+            winConfetti.Play();
             //nextB.gameObject.SetActive(true);
 
             Player.playAnimation("Win_ANIM", 1, false);
@@ -139,6 +149,8 @@ public class GameController : MonoBehaviour
         }
         else if (VictoryCheck == false)
         {
+            Lose.gameObject.SetActive(true);
+
             resetB.gameObject.SetActive(true);
             Player.playAnimation("Lose_ANIM", 1, false);
             Enemy.playAnimation("Win_ANIM", 1, false);
@@ -158,11 +170,19 @@ public class GameController : MonoBehaviour
 
     public void NextLevel()
     {
+
+        Win.gameObject.SetActive(false);
+        Lose.gameObject.SetActive(false);
+
+        winConfetti.Stop();
+
+
         Levels.LoadNextLevel();
         PauseB.interactable = true;
         TogglePause(false);
         //resetB.gameObject.SetActive(false);
         nextB.gameObject.SetActive(false);
+        resetB.gameObject.SetActive(false);
         VictoryCheck = null;
         UImanager.StomachBar.gameObject.SetActive(true);
         if (doneRound)
@@ -174,10 +194,16 @@ public class GameController : MonoBehaviour
 
     public void resetLevel()
     {
+        Win.gameObject.SetActive(false);
+        Lose.gameObject.SetActive(false);
+
+        winConfetti.Stop();
+
         VictoryCheck = null;
         Levels.ResetLevel();
         PauseB.interactable = true;
         TogglePause(false);
+        resetB.gameObject.SetActive(false);
         UImanager.StomachBar.gameObject.SetActive(true);
         //resetB.gameObject.SetActive(false);
         if (doneRound)
